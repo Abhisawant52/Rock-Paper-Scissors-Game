@@ -43,7 +43,7 @@ function Compare(userChoice , compChoice){
 	else if(userChoice === 'Rock'){
 		if(compChoice === 'Paper'){
 			lose(userChoice);
-			return 'Paper Covers Rock! \n You Lose.';
+			return 'Paper Covers Rock! \n You Lose 💩';
 		}
 		else{
 			win(userChoice);
@@ -53,7 +53,7 @@ function Compare(userChoice , compChoice){
 	else if(userChoice === 'Paper'){
 		if(compChoice === 'Scissors'){
 			lose(userChoice);
-			return 'Scissors Cuts Paper! \n You Lose.';
+			return 'Scissors Cuts Paper! \n You Lose 💩';
 		}else{
 			win(userChoice);
 			return 'Paper Covers Rock! \n You Win 🔥 .';
@@ -62,7 +62,7 @@ function Compare(userChoice , compChoice){
 	else if(userChoice === 'Scissors'){
 		if(compChoice === 'Rock'){
 			lose(userChoice);
-			return 'Rock smashes Scissors! \n You Lose.';
+			return 'Rock smashes Scissors! \n You Lose 💩 ';
 		}else{
 			win(userChoice);
 			return 'Scissors Cuts Paper! \n You Win 🔥 .';
