@@ -64,7 +64,9 @@ section{
 	cursor:pointer;
 	background:red;
 }
-
+.choice:focus img{
+        outline: none;
+    }
 .txt{
 	font-weight:bold;
 	font-size:30px;
